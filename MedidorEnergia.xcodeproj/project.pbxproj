@@ -12,6 +12,8 @@
 		AE3285A421566DBF003C8300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A221566DBF003C8300 /* Main.storyboard */; };
 		AE3285A621566DC1003C8300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A521566DC1003C8300 /* Assets.xcassets */; };
 		AE3285A921566DC1003C8300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */; };
+		AE3285B2215754EC003C8300 /* EspData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B1215754EC003C8300 /* EspData.swift */; };
+		AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B321576219003C8300 /* DadosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		AE3285A521566DC1003C8300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3285A821566DC1003C8300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3285AA21566DC1003C8300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3285B021566DD0003C8300 /* MedidorEnergia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedidorEnergia.entitlements; sourceTree = "<group>"; };
+		AE3285B1215754EC003C8300 /* EspData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspData.swift; sourceTree = "<group>"; };
+		AE3285B321576219003C8300 /* DadosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +59,12 @@
 		AE32859D21566DBF003C8300 /* MedidorEnergia */ = {
 			isa = PBXGroup;
 			children = (
+				AE3285B021566DD0003C8300 /* MedidorEnergia.entitlements */,
 				AE32859E21566DBF003C8300 /* AppDelegate.swift */,
 				AE3285A021566DBF003C8300 /* ViewController.swift */,
+				AE3285B1215754EC003C8300 /* EspData.swift */,
 				AE3285A221566DBF003C8300 /* Main.storyboard */,
+				AE3285B321576219003C8300 /* DadosTableViewCell.swift */,
 				AE3285A521566DC1003C8300 /* Assets.xcassets */,
 				AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */,
 				AE3285AA21566DC1003C8300 /* Info.plist */,
@@ -96,6 +104,14 @@
 				TargetAttributes = {
 					AE32859A21566DBF003C8300 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3285A121566DBF003C8300 /* ViewController.swift in Sources */,
+				AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */,
 				AE32859F21566DBF003C8300 /* AppDelegate.swift in Sources */,
+				AE3285B2215754EC003C8300 /* EspData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedidorEnergia/MedidorEnergia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4S5SC5BABS;
 				INFOPLIST_FILE = MedidorEnergia/Info.plist;
@@ -300,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedidorEnergia/MedidorEnergia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4S5SC5BABS;
 				INFOPLIST_FILE = MedidorEnergia/Info.plist;
