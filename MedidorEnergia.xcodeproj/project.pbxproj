@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE311F3F216264DD00BDF0CF /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE311F3E216264DD00BDF0CF /* ARViewController.swift */; };
 		AE32859F21566DBF003C8300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32859E21566DBF003C8300 /* AppDelegate.swift */; };
 		AE3285A121566DBF003C8300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285A021566DBF003C8300 /* ViewController.swift */; };
 		AE3285A421566DBF003C8300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A221566DBF003C8300 /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		AE3285A921566DC1003C8300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */; };
 		AE3285B2215754EC003C8300 /* EspData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B1215754EC003C8300 /* EspData.swift */; };
 		AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B321576219003C8300 /* DadosTableViewCell.swift */; };
+		AE4874262162E73700B34F8E /* freeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE4874252162E73700B34F8E /* freeVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE311F3E216264DD00BDF0CF /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		AE32859B21566DBF003C8300 /* MedidorEnergia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedidorEnergia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32859E21566DBF003C8300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3285A021566DBF003C8300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		AE3285B021566DD0003C8300 /* MedidorEnergia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedidorEnergia.entitlements; sourceTree = "<group>"; };
 		AE3285B1215754EC003C8300 /* EspData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspData.swift; sourceTree = "<group>"; };
 		AE3285B321576219003C8300 /* DadosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosTableViewCell.swift; sourceTree = "<group>"; };
+		AE4874252162E73700B34F8E /* freeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = freeVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,10 @@
 				AE3285A021566DBF003C8300 /* ViewController.swift */,
 				AE3285B1215754EC003C8300 /* EspData.swift */,
 				AE3285A221566DBF003C8300 /* Main.storyboard */,
+				AE311F3E216264DD00BDF0CF /* ARViewController.swift */,
 				AE3285B321576219003C8300 /* DadosTableViewCell.swift */,
 				AE3285A521566DC1003C8300 /* Assets.xcassets */,
+				AE4874252162E73700B34F8E /* freeVideo.mp4 */,
 				AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */,
 				AE3285AA21566DC1003C8300 /* Info.plist */,
 			);
@@ -139,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3285A921566DC1003C8300 /* LaunchScreen.storyboard in Resources */,
+				AE4874262162E73700B34F8E /* freeVideo.mp4 in Resources */,
 				AE3285A621566DC1003C8300 /* Assets.xcassets in Resources */,
 				AE3285A421566DBF003C8300 /* Main.storyboard in Resources */,
 			);
@@ -155,6 +162,7 @@
 				AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */,
 				AE32859F21566DBF003C8300 /* AppDelegate.swift in Sources */,
 				AE3285B2215754EC003C8300 /* EspData.swift in Sources */,
+				AE311F3F216264DD00BDF0CF /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

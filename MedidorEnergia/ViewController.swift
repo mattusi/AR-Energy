@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     
 
+    @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var consumoTableView: UITableView!
     @IBOutlet weak var consumoAtualLbl: UILabel!
     @IBOutlet weak var correnteAtualLbl: UILabel!
@@ -21,6 +22,8 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     var dataReceivedUtilNow = [EspData]()
     
+    var timer2 = Timer()
+    var time = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,14 +31,31 @@ class ViewController: UIViewController, UITableViewDataSource {
         consumoTableView.dataSource = self
         
         updateData()
-        // Do any additional setup after loading the view, typically from a nib.
-        Timer.scheduledTimer(withTimeInterval: 10, repeats: true, block: {_ in
+        
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: {_ in
             self.updateData()
         })
         
+        timer2 = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timerRunning), userInfo: nil, repeats: true)
         
         
         
+        
+    }
+    
+    @objc func timerRunning() {
+        if time >= 30 {
+            time = 0
+            DispatchQueue.main.async {
+                self.progressBar.progress = 0
+            }
+        } else {
+            DispatchQueue.main.async {
+                self.progressBar.progress = 1
+            }
+            
+            time += 1
+        }
     }
     
     
@@ -66,23 +86,30 @@ class ViewController: UIViewController, UITableViewDataSource {
             
             if error != nil {
                 print("something went wrong")
+                
             }
             
-            let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
-            print(responseString ?? "string nil")
+            var responseString = ""
+            
+            if let dataTreated = data {
+            
+                responseString = NSString(data: dataTreated, encoding: String.Encoding.utf8.rawValue)! as String
+            } else {
+                responseString = " Something went wrong / aseaseas / ashasheuaErro "
+            }
             
             
             
-            let separatedThings = responseString!.components(separatedBy: "/")
+            let separatedThings = responseString.components(separatedBy: "/")
             
             var correnteTratada = ""
-            if separatedThings[1].count > 7 {
-                correnteTratada = String(separatedThings[1].dropLast(10))
+            if separatedThings[1].count > 6 {
+                correnteTratada = String(separatedThings[1].dropLast(5))
             } else {
                 correnteTratada = separatedThings[1]
             }
             
-            let dataNow = EspData(power: String(separatedThings[2].dropLast(10)) + " W",
+            let dataNow = EspData(power: String(separatedThings[2].dropLast(5)) + " W",
                                   corrente: correnteTratada + " A" ,
                                   ID: separatedThings[0])
             if !(dataNow.ID == self.dataReceivedUtilNow.last?.ID) {
@@ -96,6 +123,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                 self.correnteAtualLbl.text = dataNow.corrente
                 
                 self.consumoTableView.reloadData()
+                
             }
             
         }
