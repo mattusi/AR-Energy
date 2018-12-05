@@ -10,7 +10,7 @@ import Foundation
 
 
 struct EspData {
-    var power: String
-    var corrente: String
-    var ID: String
+    var power: Double
+    var corrente: Double
+    var ID: Int
 }

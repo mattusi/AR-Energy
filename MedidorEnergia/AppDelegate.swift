@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Pulley
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,12 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
-        if let tabBarController = self.window?.rootViewController as? UITabBarController {
-            let arViewController = tabBarController.viewControllers?[1] as! ARViewController
-            print("this is the \(url)")
-            arViewController.readURL(url)
-            tabBarController.selectedIndex = 1
-            return true
+        if let pulleyViewController = self.window?.rootViewController as? PulleyViewController {
+            if let arViewController = pulleyViewController.primaryContentViewController as? primaryContentContainerView {
+                print("this is the \(url)")
+                arViewController.readURL(url)
+                return true
+            } else {
+                return false
+            }
         } else {
             return false
         }

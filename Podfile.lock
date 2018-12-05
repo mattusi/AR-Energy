@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - Pulley (2.6.2)
+
+DEPENDENCIES:
+  - Charts
+  - Pulley
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - Pulley
+
+SPEC CHECKSUMS:
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  Pulley: 2679a2b5a9714c5eb760b1fbb535d15c60e50fb4
+
+PODFILE CHECKSUM: 57d9410d50e9a4f17d9d6d8d3e2820b412eec18c
+
+COCOAPODS: 1.5.3

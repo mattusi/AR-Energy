@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE311F3F216264DD00BDF0CF /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE311F3E216264DD00BDF0CF /* ARViewController.swift */; };
+		647CF1FDCE6197CF1C7276A5 /* Pods_MedidorEnergia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EBCB44339BF14905171EAC /* Pods_MedidorEnergia.framework */; };
+		AE2A8AAB21AB09F300F41930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2A8AAA21AB09F200F41930 /* Assets.xcassets */; };
+		AE311F3F216264DD00BDF0CF /* primaryContentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE311F3E216264DD00BDF0CF /* primaryContentContainerView.swift */; };
 		AE32859F21566DBF003C8300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32859E21566DBF003C8300 /* AppDelegate.swift */; };
-		AE3285A121566DBF003C8300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285A021566DBF003C8300 /* ViewController.swift */; };
+		AE3285A121566DBF003C8300 /* drawerContentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285A021566DBF003C8300 /* drawerContentContainerView.swift */; };
 		AE3285A421566DBF003C8300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A221566DBF003C8300 /* Main.storyboard */; };
-		AE3285A621566DC1003C8300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A521566DC1003C8300 /* Assets.xcassets */; };
 		AE3285A921566DC1003C8300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */; };
 		AE3285B2215754EC003C8300 /* EspData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B1215754EC003C8300 /* EspData.swift */; };
 		AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3285B321576219003C8300 /* DadosTableViewCell.swift */; };
-		AE4874262162E73700B34F8E /* freeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE4874252162E73700B34F8E /* freeVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE311F3E216264DD00BDF0CF /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		4E633A029EAB8C8C2252E172 /* Pods-MedidorEnergia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedidorEnergia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedidorEnergia/Pods-MedidorEnergia.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2A8AAA21AB09F200F41930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE311F3E216264DD00BDF0CF /* primaryContentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primaryContentContainerView.swift; sourceTree = "<group>"; };
 		AE32859B21566DBF003C8300 /* MedidorEnergia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedidorEnergia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE32859E21566DBF003C8300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE3285A021566DBF003C8300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3285A021566DBF003C8300 /* drawerContentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawerContentContainerView.swift; sourceTree = "<group>"; };
 		AE3285A321566DBF003C8300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE3285A521566DC1003C8300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3285A821566DC1003C8300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3285AA21566DC1003C8300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3285B021566DD0003C8300 /* MedidorEnergia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedidorEnergia.entitlements; sourceTree = "<group>"; };
 		AE3285B1215754EC003C8300 /* EspData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspData.swift; sourceTree = "<group>"; };
 		AE3285B321576219003C8300 /* DadosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosTableViewCell.swift; sourceTree = "<group>"; };
-		AE4874252162E73700B34F8E /* freeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = freeVideo.mp4; sourceTree = "<group>"; };
+		F2D45137425841AD08135141 /* Pods-MedidorEnergia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedidorEnergia.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedidorEnergia/Pods-MedidorEnergia.release.xcconfig"; sourceTree = "<group>"; };
+		F4EBCB44339BF14905171EAC /* Pods_MedidorEnergia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedidorEnergia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647CF1FDCE6197CF1C7276A5 /* Pods_MedidorEnergia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		927BC4CB0EA392A587A4F296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBCB44339BF14905171EAC /* Pods_MedidorEnergia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE32859221566DBF003C8300 = {
 			isa = PBXGroup;
 			children = (
 				AE32859D21566DBF003C8300 /* MedidorEnergia */,
 				AE32859C21566DBF003C8300 /* Products */,
+				EAA4DCA261F7BDED6DCE4740 /* Pods */,
+				927BC4CB0EA392A587A4F296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,17 +78,25 @@
 			children = (
 				AE3285B021566DD0003C8300 /* MedidorEnergia.entitlements */,
 				AE32859E21566DBF003C8300 /* AppDelegate.swift */,
-				AE3285A021566DBF003C8300 /* ViewController.swift */,
+				AE3285A021566DBF003C8300 /* drawerContentContainerView.swift */,
 				AE3285B1215754EC003C8300 /* EspData.swift */,
 				AE3285A221566DBF003C8300 /* Main.storyboard */,
-				AE311F3E216264DD00BDF0CF /* ARViewController.swift */,
+				AE311F3E216264DD00BDF0CF /* primaryContentContainerView.swift */,
 				AE3285B321576219003C8300 /* DadosTableViewCell.swift */,
-				AE3285A521566DC1003C8300 /* Assets.xcassets */,
-				AE4874252162E73700B34F8E /* freeVideo.mp4 */,
+				AE2A8AAA21AB09F200F41930 /* Assets.xcassets */,
 				AE3285A721566DC1003C8300 /* LaunchScreen.storyboard */,
 				AE3285AA21566DC1003C8300 /* Info.plist */,
 			);
 			path = MedidorEnergia;
+			sourceTree = "<group>";
+		};
+		EAA4DCA261F7BDED6DCE4740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E633A029EAB8C8C2252E172 /* Pods-MedidorEnergia.debug.xcconfig */,
+				F2D45137425841AD08135141 /* Pods-MedidorEnergia.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3285AD21566DC1003C8300 /* Build configuration list for PBXNativeTarget "MedidorEnergia" */;
 			buildPhases = (
+				11CB9055227A661214555D03 /* [CP] Check Pods Manifest.lock */,
 				AE32859721566DBF003C8300 /* Sources */,
 				AE32859821566DBF003C8300 /* Frameworks */,
 				AE32859921566DBF003C8300 /* Resources */,
+				A32C6924D8F9AECF5D81D7A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,24 +168,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3285A921566DC1003C8300 /* LaunchScreen.storyboard in Resources */,
-				AE4874262162E73700B34F8E /* freeVideo.mp4 in Resources */,
-				AE3285A621566DC1003C8300 /* Assets.xcassets in Resources */,
+				AE2A8AAB21AB09F300F41930 /* Assets.xcassets in Resources */,
 				AE3285A421566DBF003C8300 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11CB9055227A661214555D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedidorEnergia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32C6924D8F9AECF5D81D7A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedidorEnergia/Pods-MedidorEnergia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedidorEnergia/Pods-MedidorEnergia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE32859721566DBF003C8300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3285A121566DBF003C8300 /* ViewController.swift in Sources */,
+				AE3285A121566DBF003C8300 /* drawerContentContainerView.swift in Sources */,
 				AE3285B421576219003C8300 /* DadosTableViewCell.swift in Sources */,
 				AE32859F21566DBF003C8300 /* AppDelegate.swift in Sources */,
 				AE3285B2215754EC003C8300 /* EspData.swift in Sources */,
-				AE311F3F216264DD00BDF0CF /* ARViewController.swift in Sources */,
+				AE311F3F216264DD00BDF0CF /* primaryContentContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +377,7 @@
 		};
 		AE3285AE21566DC1003C8300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E633A029EAB8C8C2252E172 /* Pods-MedidorEnergia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MedidorEnergia/MedidorEnergia.entitlements;
@@ -319,12 +391,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.tusi.MedidorEnergia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AE3285AF21566DC1003C8300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D45137425841AD08135141 /* Pods-MedidorEnergia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MedidorEnergia/MedidorEnergia.entitlements;
@@ -338,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.matheus.tusi.MedidorEnergia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
